@@ -1,0 +1,18 @@
+﻿using BankApp.AppServices;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BankApp.CustomerServices
+{
+    public class AccountNumberGen
+    {
+        public int GetAccountNumber()
+        {
+            Random random = new Random();
+          return random.Next();
+        }
+    }
+}
